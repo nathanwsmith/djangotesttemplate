@@ -23,7 +23,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'adsb.settings'
 
 virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
 
-os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python3.6/site-packages')
+os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.7/site-packages')
 
 virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
 try:
