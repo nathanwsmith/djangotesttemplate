@@ -1,5 +1,5 @@
 source ${OPENSHIFT_HOMEDIR}python-2.7/virtenv/bin/activate
-
+pip install django
 export PYTHON_EGG_CACHE=${OPENSHIFT_HOME_DIR}python-2.7/virtenv/lib/python-2.7/site-packages
 
 echo "Executing 'python ${OPENSHIFT_REPO_DIR}/manage.py syncdb --noinput'"
